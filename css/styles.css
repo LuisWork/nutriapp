@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Emoji';
+    src: url(../fonts/Emoji.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    font-family: 'Emoji';
+}
+
+body{
+    background-color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+header h1{
+    line-height: 150px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+h1{
+    text-align: center;
+    color: #444;
+}
+
+
+article{
+    color: gray;
+    padding: 5px;
+    margin: 20px;
+}
+
+article h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.paragraphs{
+    width: 75%;
+    margin: auto;
+}
+
+.galery{
+    display: flex;
+    flex-direction: column;
+}
+
+.galery .images-galery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.images-galery img{
+    padding: 20px;
+    /*border-radius: 500px;*/
+    transition: all 300ms;
+}
+
+.images-galery img:hover{
+    scale: 1.2;
+}
+
+footer{
+    min-height: 100px;
+    text-align: center;
+    /* color: blueviolet; */
+    background-color: black;
+}
+
+footer h3{
+    /* line-height: 100px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.0rem;
+    letter-spacing: 3px;
+    margin: 0px  auto;
+    padding-top: 35px;
+}
+
+
