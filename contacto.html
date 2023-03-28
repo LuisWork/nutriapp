@@ -38,22 +38,22 @@
     </div>
     <section class="container  vh-100">
       <h1 class="mt-5  text-danger">Contacto</h1>
-        <form class="col-md-6 border p-5 rounded mt-n3 " id="miFormulario">
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre:</label>
-              <input type="text" name="nombre" class="form-control" id="nombre"/> <!--TYPE TEXT-->
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email:</label>
-              <input type="email" name="email" class="form-control" id="exampleInputEmail1 email" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
-            </div>
-            <div class="form-floating mb-4">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2 mensaje" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Mensaje</label>
-              </div>
-            <button id="boton" type="submit" class="btn btn-dark">Enviar</button>
-          </form>
+      <form class="col-md-6 border p-5 rounded mt-n3">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" class="form-control"/> 
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" id="email" name="email" class="form-control">
+          <div class="form-text"></div>
+        </div>
+        <div class="form-floating mb-4">
+          <textarea id="mensaje" class="form-control" style="height: 100px"></textarea>
+          <label for="textarea">Mensaje</label>
+        </div>
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </form>
 
     </section>
 
