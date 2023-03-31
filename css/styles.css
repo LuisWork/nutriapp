@@ -45,6 +45,10 @@ article h2{
     margin: 20px;
 }
 
+section{
+    min-height: 100vh;
+}
+
 .paragraphs{
     width: 75%;
     margin: auto;
