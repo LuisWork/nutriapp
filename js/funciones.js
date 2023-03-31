@@ -1,7 +1,3 @@
-$(document).ready(function () {
-    $('#example').DataTable();
-});
-
 const form = document.querySelector('form');
 
 form.addEventListener('submit', (event) => {
